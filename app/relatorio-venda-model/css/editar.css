@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+.ui-dialog-titlebar-close {
+	display: none;
+}
+
+.juridica {
+	display: none;
+}

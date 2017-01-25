@@ -1,0 +1,12 @@
+
+@media print{
+    #usuario_id{
+        /*display: none;*/
+        border: 0px;
+        -webkit-appearance: none; 
+        appearance: none;
+    }
+    select::-ms-expand {
+	    display: none;
+	}
+}

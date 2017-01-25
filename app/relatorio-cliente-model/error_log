@@ -1,0 +1,127 @@
+[12-May-2016 11:14:37 Brazil/East] PHP Fatal error:  Uncaught exception 'Doctrine_Table_Exception' with message 'Unknown relation alias Contrato' in /home/filibras/public_html/lib/Doctrine/Relation/Parser.php:237
+Stack trace:
+#0 /home/filibras/public_html/lib/Doctrine/Relation/Parser.php(235): Doctrine_Relation_Parser->getRelation('Contrato', false)
+#1 /home/filibras/public_html/lib/Doctrine/Table.php(1001): Doctrine_Relation_Parser->getRelation('Contrato', true)
+#2 /home/filibras/public_html/lib/Doctrine/Query.php(1744): Doctrine_Table->getRelation('Contrato')
+#3 /home/filibras/public_html/lib/Doctrine/Query/From.php(88): Doctrine_Query->load('e.Contrato c')
+#4 /home/filibras/public_html/lib/Doctrine/Query/Abstract.php(2077): Doctrine_Query_From->parse('LEFT JOIN e.Con...')
+#5 /home/filibras/public_html/lib/Doctrine/Query.php(1167): Doctrine_Query_Abstract->_processDqlQueryPart('from', Array)
+#6 /home/filibras/public_html/lib/Doctrine/Query.php(1133): Doctrine_Query->buildSqlQuery(true)
+#7 /home/filibras/public_html/lib/Doctrine/Query/Abstract.php(958): Doctri in /home/filibras/public_html/lib/Doctrine/Relation/Parser.php on line 237
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Trying to get property of non-object in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 108
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: data_lancamento in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 109
+[12-May-2016 11:16:51 Brazil/East] PHP Notice:  Undefined variable: valor_total in /home/filibras/public_html/app/relatorio-cliente-model/detalhes_pdf.php on line 110

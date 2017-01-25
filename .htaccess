@@ -1,0 +1,30 @@
+AddDefaultCharset UTF-8
+
+# Mode Rewrite
+RewriteEngine On
+
+# Página de Login
+RewriteRule ^login/$ login.php
+
+# Autenticação de usuário
+RewriteRule ^authentication/$ authentication.php
+
+# Logout
+RewriteRule ^logout/$ logout.php
+
+# Inscrição para processo de admissao
+RewriteRule ^processo-admissao/?$					admissao.php
+RewriteRule ^processo-admissao/check/?$ 				admissao_check.php
+RewriteRule ^processo-admissao/([0-9a-zA-Z-]+)/?$			admissao.php?doc_numero=$1
+RewriteRule ^action/processo-admissao/?$ 				admissao_action.php
+RewriteRule ^action/processo-admissao/check/?$ 				admissao_check_action.php
+RewriteRule ^processo-admissao/minha-inscricao/([0-9a-zA-Z-]+)/?$ 	admissao_inscricao.php?doc_numero=$1
+
+# Abertura de Páginas
+RewriteRule ^([0-9a-z-_]+)/?$ index.php?model=$1&%{QUERY_STRING}
+RewriteRule ^([0-9a-z-_]+)/([0-9a-z-_]+)/?$ index.php?model=$1&action=$2&%{QUERY_STRING}
+RewriteRule ^([0-9a-z-_]+)/([0-9a-z-_]+)/([0-9-:]+)/?$ index.php?model=$1&action=$2&id=$3&%{QUERY_STRING}
+
+# Envio de formulários POST
+RewriteRule ^action/([0-9a-z-_]+)/([0-9a-z-_]+)/?$ 		action.php?model=$1&action=$2
+RewriteRule ^action/([0-9a-z-_]+)/([0-9a-z-_]+)/([0-9-]+)/?$ 	action.php?model=$1&action=$2&id=$3
